@@ -1,7 +1,7 @@
-name: "mixtral-8x7B-Q3_K_M"
+name: "dolphin-2.7-mixtral-8x7b.Q3_K_M"
 
 description: |
-  This is a mixtral model
+  This is a dolphin model
 
 license: "https://www.apache.org/licenses/LICENSE-2.0"
 urls:
@@ -23,13 +23,13 @@ config_file: |
     batch: 512
     tfz: 1.0
   template:
-    chat: mixtral-chat
-    completion: mixtral-completion
+    chat: dolphin-chat
+    completion: dolphin-completion
   stopwords:
   - <|im_end|>
 
 prompt_templates:
-- name: "mixtral-chat"
+- name: "dolphin-chat"
   content: |
     <|im_start|>system
     {system_message}<|im_end|>
@@ -37,7 +37,7 @@ prompt_templates:
     {prompt}<|im_end|>
     <|im_start|>assistant
 
-- name: "mixtral-completion"
+- name: "dolphin-completion"
   content: |
     <|im_start|>system
     {system_message}<|im_end|>
