@@ -1,3 +1,7 @@
+## Dolphin
+- url: "github:danky-git/model-gallery/dolphin.yaml"
+  name: "gpt-4"
+  license: other
 ## Whisper
 - url: "github:go-skynet/model-gallery/whisper-base.yaml"
   name: "whisper-1"
