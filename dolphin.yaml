@@ -12,7 +12,7 @@ config_file: |
   context_size: 32768
   f16: true
   mmap: true
-  gpu_layers: 30 # uncomment to offload all layers to GPU
+  gpu_layers: 28 # uncomment to offload all layers to GPU
   threads: 4
   cuda: true
   parameters:
