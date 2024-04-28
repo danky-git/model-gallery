@@ -14,6 +14,7 @@ config_file: |
   mmap: true
   gpu_layers: 90 # uncomment to offload all layers to GPU
   threads: 4
+  cuda: true
   parameters:
     model: dolphin-2.7-mixtral-8x7b.Q3_K_M.gguf
     temperature: 0.2
