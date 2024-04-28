@@ -1,4 +1,4 @@
-name: "dolphin-2.7-mixtral-8x7b.Q4_K_M"
+name: "dolphin-2.7-mixtral-8x7b.Q3_K_M.gguf"
 
 description: |
   This is a dolphin model
@@ -8,7 +8,7 @@ urls:
 - https://huggingface.co/TheBloke/dolphin-2.7-mixtral-8x7b-GGUF
 
 config_file: |
-  name:   dolphin-2.7-mixtral-8x7b.Q4_K_M.gguf?download=true
+  name:   dolphin-2.7-mixtral-8x7b.Q3_K_M.gguf
   context_size: 32768
   f16: true
   mmap: true
@@ -16,7 +16,7 @@ config_file: |
   threads: 8
   cuda: true
   parameters:
-    model: dolphin-2.7-mixtral-8x7b.Q4_K_M.gguf
+    model: dolphin-2.7-mixtral-8x7b.Q3_K_M.gguf
   # template:
   #   chat: dolphin-chat
   #   completion: dolphin-completion
@@ -39,6 +39,6 @@ config_file: |
 #     <|im_start|>assistant
     
 files:
-- filename: "dolphin-2.7-mixtral-8x7b.Q4_K_M.gguf"
-  sha256: "79aa1c67abe86dd5d440caa5e56781405664203b47b4172cebfeccae03618439"
-  uri: "https://huggingface.co/TheBloke/dolphin-2.7-mixtral-8x7b-GGUF/resolve/main/dolphin-2.7-mixtral-8x7b.Q4_K_M.gguf"
+- filename: "dolphin-2.7-mixtral-8x7b.Q3_K_M.gguf"
+  sha256: "b773e8f5456c382a61f75c32126ffa851608a5d85673779d5068a410886a9980"
+  uri: "https://huggingface.co/TheBloke/dolphin-2.7-mixtral-8x7b-GGUF/resolve/main/dolphin-2.7-mixtral-8x7b.Q3_K_M.gguf"
