@@ -13,7 +13,7 @@ config_file: |
   f16: true
   mmap: true
   # cuda: true
-  gpu_layers: 20 # uncomment to offload all layers to GPU
+  gpu_layers: 30 # uncomment to offload all layers to GPU
   threads: 4
   parameters:
     model: mixtral-8x7b-instruct-v0.1.Q3_K_M.gguf
